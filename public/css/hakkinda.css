@@ -1,0 +1,23 @@
+.hakkinda{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.hakkinda .box{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightcoral;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: absolute;
+    bottom: 65%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
