@@ -1,0 +1,38 @@
+.header{
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.header h1, .header h2{
+    position: absolute;
+}
+.header h1{
+    top: -50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+}
+.header h2{
+    top: 80px;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.header{
+    transform: translateX(-30px);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.header.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
